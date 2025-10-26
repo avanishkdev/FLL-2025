@@ -1,8 +1,0 @@
-# pybricks blocks file:{"blocks":{"languageVersion":0,"blocks":[{"type":"blockGlobalSetup","id":"bjK,wS1MYO7aiYkFSwd{","x":0,"y":0,"deletable":false},{"type":"blockGlobalStart","id":"3tJe|AWl0baN(wH9a$@.","x":0,"y":98,"deletable":false,"next":{"block":{"type":"blockPrint","id":"j,,T}?rBkaW$1v?olp4p","extraState":{"optionLevel":0},"inputs":{"TEXT0":{"shadow":{"type":"text","id":"!x5.0YiWya^`(y)yO5B8","fields":{"TEXT":"Hello, Pybricks!"}}}},"next":{"block":{"type":"blockWaitTime","id":"G0-_$I%RY7Dfc;w{gB`$","inputs":{"VALUE0":{"shadow":{"type":"unit_time","id":"3-^[}~eTS^[$Z9_B`5Yd","fields":{"VALUE0":5000}}}},"next":{"block":{"type":"blockPrint","id":"t,QU){HAQdUb8gXi3%2[","extraState":{"optionLevel":0},"inputs":{"TEXT0":{"shadow":{"type":"text","id":":vn/V0/+$ZbnY?C;x=#d","fields":{"TEXT":"Have a nice day!"}}}}}}}}}}}]},"variables":[{"name":"red","id":"HYt%%fnoC{yq}uD+SS^J","type":"ColorDef"},{"name":"orange","id":"ZI|J[1d_mpQN=w5MsxlJ","type":"ColorDef"},{"name":"yellow","id":"e;FASx9R,nQ#_raN!B)e","type":"ColorDef"},{"name":"green","id":"/KaDe/#nl7HlJ7nhlB%x","type":"ColorDef"},{"name":"cyan","id":"dUO,f5(bcKfC!X3!!NVn","type":"ColorDef"},{"name":"blue","id":"#gUjWMt}QjcPMt,F8SwI","type":"ColorDef"},{"name":"violet","id":"+W+lc2GY!j2DBm4ROx$?","type":"ColorDef"},{"name":"magenta","id":"Pw5TW6j-Zj2sxKsC#gCk","type":"ColorDef"},{"name":"white","id":"kMZpnK!iOf:PHuT}H$U9","type":"ColorDef"},{"name":"none","id":")uokAQ#*)2XO2qw3Vp7y","type":"ColorDef"}],"info":{"type":"pybricks","version":"1.3.2"}}
-from pybricks.tools import wait
-
-
-# The main program starts here.
-print('Hello, Pybricks!')
-wait(5000)
-print('Have a nice day!')
