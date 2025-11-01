@@ -1,52 +1,99 @@
-# pybricks blocks file:{"blocks":{"languageVersion":0,"blocks":[{"type":"blockGlobalSetup","id":"bjK,wS1MYO7aiYkFSwd{","x":143,"y":33,"deletable":false,"next":{"block":{"type":"variables_set_motor","id":"d8I3NC/~/Bd|JB=./IYI","fields":{"VAR":{"id":"J?}q![eYC]S.)}0EIHQ-"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"NJ9e)#7+uOY7+#ba7~-c","fields":{"NAME":"C"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"1|/:FcFe4/{JG!]dx.`z","fields":{"SELECTION":"Direction.CLOCKWISE"}}}},"next":{"block":{"type":"variables_set_motor","id":"!{aZHs|:76`}@xu[@*[(","fields":{"VAR":{"id":"_{%Sf|7eh8`AN@m.1i*P"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"xNY3xGxfrII^@z6P}%dd","fields":{"NAME":"A"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"8I*f(++dw~YqGRBDzO~^","fields":{"SELECTION":"Direction.COUNTERCLOCKWISE"}}}},"next":{"block":{"type":"variables_set_motor","id":"@AcnA{)AYJ8|ec|1u^B3","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"3;i5B%I`^X4q$Hki3;5V","fields":{"NAME":"B"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"?~xgRJ^iYM8V=pkY1N*5","fields":{"SELECTION":"Direction.COUNTERCLOCKWISE"}}}},"next":{"block":{"type":"variables_set_motor","id":"O$}:#ba+zm]qQx;miI7D","fields":{"VAR":{"id":"RwuP@ElDOdt2k(L+*ak)"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"9EWoqYTny|O7Y?Ib1f6y","fields":{"NAME":"D"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"DP+Zez.~=9;W`TpM^6!6","fields":{"SELECTION":"Direction.COUNTERCLOCKWISE"}}}},"next":{"block":{"type":"variables_set_drive_base","id":"}+VZKywZ`p=8?yi:GFV(","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M"}},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"/KVvz;C;`+^D2ca~7c(j","fields":{"VAR":{"id":"_{%Sf|7eh8`AN@m.1i*P","name":"left","type":"Motor"}}}},"VAR2":{"shadow":{"type":"variables_get_motor_device","id":"VWb?bKKD$2Ic_c90BX`0","fields":{"VAR":{"id":"J?}q![eYC]S.)}0EIHQ-","name":"right","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_distance","id":";r6!/wo1)$bmOgj}at)d","fields":{"VALUE0":56}}},"VALUE1":{"shadow":{"type":"unit_distance","id":"+_d@.!aphLEZd5.|I]|!","fields":{"VALUE0":98}}}}}}}}}}}}}}},{"type":"blockGlobalStart","id":"3tJe|AWl0baN(wH9a$@.","x":140,"y":393,"deletable":false,"next":{"block":{"type":"blockDriveBaseUseGyro","id":"A1EZ3pPmp12v)HX{SMpN","fields":{"METHOD":"DRIVEBASE_USE_GYRO_TRUE"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"`vAss9E9K:^.8l3BL9J2","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}}},"next":{"block":{"type":"blockComment","id":"PBUq#=,[j^S$ni/Px0m?","fields":{"FIELDNAME":"Move towards mission 13 - Statue rebuild"},"next":{"block":{"type":"blockDriveBaseConfigure","id":"CqU}]239#rE?+P^TWa4J","extraState":{"optionLevel":1},"fields":{"METHOD":"DRIVEBASE_STRAIGHT_SPEED"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"(`_KHh+[.iq6{ZD{x4oD","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_speed","id":"BB,ILPHXq:=_1lNg6vxJ","fields":{"VALUE0":300}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"=^v``$Rq876idy9cQRbE","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"{EQU3eMG*tm/:G|1z#vp","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"E{AJ2VbWs?W%i[qTo^i7","fields":{"VALUE0":850}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"DCNr{byOp9|]I*Gjku)e","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"`4H#t]VqQ=njJ83^^Eoe","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"$PuU$?k@7pcv+PR.7m9Y","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"FLL%`81nZL8yE}#IgXDW","fields":{"VALUE0":110}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"-eCm91+[l78Wt%{GPT9Z","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"f7VaWQYl7_[ksH34G3W5","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"^;,O%PV9J#WD`2:4d|s-","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"N{h#nT[6,b%B#]pH5:IY","fields":{"VALUE0":195}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"TjcK9[D6L3{)}-Y_d7EO","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"*78kZ^dNfrMyOrjk|*dA","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"V~3,`DyizFss6W-n#?3!","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"cMz.$:L/p1t3e@Z4$(x#","fields":{"VALUE0":40}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"^v/Uz8a.PIw41^u5?_pd","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"OcZA3mq4)8mj`REE$B=)","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"3CDJYX(@Ia13k:8ZbH8W","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"%-snQ/@Zre4,rjc^v^-]","fields":{"VALUE0":110}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"_([r}s]h$78}=(Ukp7Cp","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"v.mO0qBZ{iLVt1v`)276","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"5n}^CY@T:4|tzC-q{.us","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"@yrDS?M-J??/YdU3,zV8","fields":{"VALUE0":-10}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"/80TBdZM#NY?s:WYvnqw","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorResetAngle","id":"fr~b?=[H3)1}W0c+*-Ut","inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"6`)D?u]r%Mh-SI1?di]t","fields":{"VAR":{"id":"_{%Sf|7eh8`AN@m.1i*P","name":"left","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angle","id":"NjSsj3JLb=R1FOO;`;Ok","fields":{"VALUE0":0}}}},"next":{"block":{"type":"blockComment","id":"#b4%-B4fv:tbloK?$s`.","fields":{"FIELDNAME":"Reached  mission 13 - Statue rebuild - Lift arm"},"next":{"block":{"type":"blockDriveBaseDrive2","id":"c8nSjQ=`7N`-`,Yxt1ex","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"A+@wtvvlT_EzNjNn?YFv","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"*G_O462sqRUA(M!0KmLI","fields":{"VALUE0":-7}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"[jLovj_R4b9nC0MoaI4U","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorRun","id":"X]02-GfPxS}lag!W-yh%","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"X5;/_!MPxb=hzY{@@U^2","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"f=n~=WqbO/RKP_05aw/m","fields":{"VALUE0":300}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"|}LeoS3XsEmk@aS@_o[K","fields":{"VALUE0":250}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"L:r3JqQ;w9Chvy.KLzxe","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"%tziJPKeMS!uhKTIE3`-","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"ieb%vTgPnoRjiEAqUC_6","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"N}*!+]{Tz}D~2p]@Bxl}","fields":{"VALUE0":7}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"9GvC5]r{:[,$--9[oBP#","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockComment","id":"]`8{X*DfuNOhNKZ?aXXU","fields":{"FIELDNAME":"Mission 13 complete - Move back"},"next":{"block":{"type":"blockDriveBaseDrive2","id":"fFeMl^evIl.ke7G~5g3b","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"D5Mj:Av$^?GI2l8XkPwa","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"|OI^v*_DhoLSDbj5+U2,","fields":{"VALUE0":-195}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"^0vgK_`nl2z_vjy:w@VC","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorRun","id":"{|:$Iq{2ToknL5gzQCZN","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"B%{ZhX%AR;8v/Pdk[Hk9","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"dNLY+$fHd_]CzD/#40*q","fields":{"VALUE0":300}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"o9E+Ax^e$KQzitpPhyuT","fields":{"VALUE0":-250}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"3p]?zORWfJ?zIMmw,DG4","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"2f@)/N5i+yH;BJxmB(G?","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"_,$G?yO=ZU5~l3S9j|ZW","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"qY.hy@:!3NGz=0!*U^7s","fields":{"VALUE0":-62}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"N@JX;3O*dKRW:x%u85*.","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorRun","id":"aYYLSrlmo/_W02scK4[]","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"!@3W0jr+Sl;ePn,cYUX=","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"jwv+|-^N0E(pU_g+XwqY","fields":{"VALUE0":1000}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"YE?XA!1T6dU:_o0/{:$u","fields":{"VALUE0":375}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"6@$oG}o1#;*8SzZ,MT#R","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockWaitTime","id":"a2Toxx7w@R.}y;N-.5fu","inputs":{"VALUE0":{"shadow":{"type":"unit_time","id":"2bL]s6]_F6Rr/?J.*7uY","fields":{"VALUE0":1000}}}},"next":{"block":{"type":"blockComment","id":"1O:yQzX#,L!d5I8hlAvT","fields":{"FIELDNAME":"Mission 3 - Mineshaft complete- Lower arm and move back home"},"next":{"block":{"type":"blockMotorRun","id":"|-#yL+a11F/n2)RP;JH/","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"@%?g4f968TFKhH/}oYYl","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"I{kjh]JmjS,GY-Knpy|K","fields":{"VALUE0":1000}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"u._O.9}~yM@%c68AIth;","fields":{"VALUE0":-360}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"CSQe|~ZC_kxXTDPWp+/C","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorResetAngle","id":"jYde.r2)Lc|c^yMfgL{V","inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"%=,}7ht@JR#$1!{s7snn","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angle","id":"/:Wxm`Vs7`qMQdpG]mVk","fields":{"VALUE0":0}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":".svb.RbOtawMGlla`aQd","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"cDv4,gfw]4Dtc2$$#RtZ","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"Z`@9}^;omslgE*w%T_nd","fields":{"VALUE0":-100}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"-U17)6%-0Q{}vasWW_29","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorRun","id":".:ELAxfc!o1/5/Wx+Mj*","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"FaG3FLe_wlR}Jpxx_Y]D","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"@k94Vn@NJ.fTsYHC)02M","fields":{"VALUE0":1000}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"{M-v2hF?.c.|Yv+}Y.gE","fields":{"VALUE0":360}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"XKYM0p(PdZM+l//w5(Fc","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"-BnyznNC.}~Mj+OkwR#a","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"2V7eYI9[BB(i[LM=Jt5I","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"@3]LF%Za.wok$|01{1oI","fields":{"VALUE0":100}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"[,fpPYCK[~i5H;`0=w=F","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"5fu;4RY)-cNneIc)?T`R","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"P!n^ki4m4klEiU!fhXbz","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"M)9~xU[`w_-OJU=bt*ir","fields":{"VALUE0":220}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"cEstF]bJtx4#)CXQ|RO?","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"(I-,T!D.8)x0;4~Wggz7","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"jcMP*ps#J0l3FVN7$d8(","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"ILx}bVV8}j]|fwmFg3:O","fields":{"VALUE0":90}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"vu}eP{i^5@kZsLjqo9CR","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorResetAngle","id":"v9C%D}Tkcwi/z!~Pj(we","inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"bv0VW{k28Fnp!c8P6ovd","fields":{"VAR":{"id":"RwuP@ElDOdt2k(L+*ak)","name":"right gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angle","id":"z0GguQV/vP9FMqc!-|/y","fields":{"VALUE0":0}}}},"next":{"block":{"type":"blockMotorRun","id":"z9.XE$0B/$D{o2q9]z.q","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"fP$e0kUHmMWN*B[H**?Q","fields":{"VAR":{"id":"RwuP@ElDOdt2k(L+*ak)","name":"right gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"8cE2^!5Y1drFRADx^wJY","fields":{"VALUE0":1000}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"VMH:ByBNLTM5V+z~XxH-","fields":{"VALUE0":455}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"V~3=qQ)2Exdc8PhPF0ZV","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseConfigure","id":"NO0$tfxGV~3;I,VACq[g","extraState":{"optionLevel":1},"fields":{"METHOD":"DRIVEBASE_STRAIGHT_SPEED"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"KIKpdyko/u6SDVB6-|X*","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_speed","id":"_%A^cxE?d*rK`8E^t=/;","fields":{"VALUE0":100}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"2ZvyR=C[fqIr9tNPSVK[","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"3F2)aXv:oU0AqM^|S4(/","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"fy~:}i(Ke3-BwQ?IT~;*","fields":{"VALUE0":120}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"kMM^^c}E:Ef6YE$^9}8t","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorResetAngle","id":"/u8NKl!%9%P%.(PmSo!V","inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"1o?ElUY:r=P7rQbp2htF","fields":{"VAR":{"id":"RwuP@ElDOdt2k(L+*ak)","name":"right gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angle","id":"hNr{GQkN!BPvm4x5KbbJ","fields":{"VALUE0":0}}}},"next":{"block":{"type":"blockMotorRun","id":"LWe@jS?}4@4O:Zh*wWEh","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"`m`g$8L.3KpY%-0.1B[b","fields":{"VAR":{"id":"RwuP@ElDOdt2k(L+*ak)","name":"right gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"=3`eq#/`i*s0+eqEL^iV","fields":{"VALUE0":500}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"`U_XIT7CoGz{{,.A#[1Z","fields":{"VALUE0":-100}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"6#@iNHcWz^yesskP4Sua","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"wX_N,?t8k|w_7u/S@F_@","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"-[cmT[ErC2G^^Lso:h]U","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"H.;];B~Qg./xhn#vWKFh","fields":{"VALUE0":-90}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"5W#F%d@k%aG*r8uTNFRa","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseConfigure","id":"[SnkoV[U[.BTX@R0ES=?","extraState":{"optionLevel":1},"fields":{"METHOD":"DRIVEBASE_STRAIGHT_SPEED"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"r+=1^Qsy{n2cDAXWm[?r","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_speed","id":"D@G#x/o#`P|J$~Gl-Tr@","fields":{"VALUE0":500}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"/p6cw7G|]5+C%sW3(6qn","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"!2H8gJ:s,3Mc0krflh5^","fields":{"VAR":{"id":"P*clZHD?MSLt+xE-q5#M","name":"robot","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"mG{Z:tWnBC83EG=g)@Ti","fields":{"VALUE0":500}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"z.JIAMOU2DQ|Mz}so@H/","fields":{"VALUE":"Stop.HOLD"}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}},{"type":"blockMotorRun","id":"p2EhSU8:b!v{8~4vKKoH","x":764,"y":1034,"enabled":false,"extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"%yx:qL|p`%0QFY(5(QgY","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"bb[vr}rTs0TWC5a6V@W(","fields":{"VALUE0":200}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"bUzdBJxkFgF}p)|e[yt.","fields":{"VALUE0":180}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"Qw/bctfHWSOCqOlr_j$P","fields":{"VALUE":"Stop.HOLD"}}}}},{"type":"blockMotorRun","id":"pqlHm8$(dpoPZ|e++vUE","x":778,"y":1184,"enabled":false,"extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"])t@BMBX$Ac*Vru,7YG?","fields":{"VAR":{"id":"vo%33gv|?(#@]@v?]I{3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"txhsH(EJfP,O_676X*L,","fields":{"VALUE0":500}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"Kgj6d]uTv*Z.7XpGC=j#","fields":{"VALUE0":-180}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"t(=wAzh6Z6:]%Rz@.e-2","fields":{"VALUE":"Stop.HOLD"}}}}}]},"variables":[{"name":"red","id":"Ff@7eog?bf[4HYjstE++","type":"ColorDef"},{"name":"orange","id":"~@):WC)S0|iG3hGP|Rk%","type":"ColorDef"},{"name":"yellow","id":"E$4K=^:J`sA?vP-G4ilN","type":"ColorDef"},{"name":"green","id":"]HLBP~$rMRP=0imIFv.X","type":"ColorDef"},{"name":"cyan","id":"9Cug#cz7`v5o!v1#{K?J","type":"ColorDef"},{"name":"blue","id":"AAX$R.S7XH2JRG,].vL!","type":"ColorDef"},{"name":"violet","id":"i5~Y{G6j[C#{PuY,c;6%","type":"ColorDef"},{"name":"magenta","id":"U9AcV91+7SG-!;1L-d.t","type":"ColorDef"},{"name":"white","id":"XG?~~:^yK},/5SRSuU,]","type":"ColorDef"},{"name":"none","id":"G7Y8$o:Md@YC,pfrAgi_","type":"ColorDef"},{"name":"robot","id":"P*clZHD?MSLt+xE-q5#M","type":"DriveBase"},{"name":"left","id":"_{%Sf|7eh8`AN@m.1i*P","type":"Motor"},{"name":"right","id":"J?}q![eYC]S.)}0EIHQ-","type":"Motor"},{"name":"left gear","id":"vo%33gv|?(#@]@v?]I{3","type":"Motor"},{"name":"right gear","id":"RwuP@ElDOdt2k(L+*ak)","type":"Motor"}],"info":{"type":"pybricks","version":"1.3.2"}}
+"""
+Mission 1, 3, and 13 - FLL 2025
+Refactored to use Robot helper for consistent movements (2025-11-01)
+
+This mission script performs missions 1, 3, and 13, involving statue rebuild,
+mineshaft operations, and various manipulator movements.
+
+Port Wiring:
+- Left motor: Port A (counterclockwise)
+- Right motor: Port C (clockwise)
+- Left gear manipulator: Port B (counterclockwise)
+- Right gear manipulator: Port D (counterclockwise)
+- Wheel diameter: 56 mm
+- Axle track: 80 mm (Note: Original used 98mm; standardized to 80mm per refactoring)
+
+When executed, runs mission_1_3_13() function.
+"""
+
 from pybricks.parameters import Direction, Port, Stop
 from pybricks.pupdevices import Motor
-from pybricks.robotics import DriveBase
 from pybricks.tools import wait
+from robot_helpers import Robot
 
-# Set up all devices.
-right = Motor(Port.C, Direction.CLOCKWISE)
-left = Motor(Port.A, Direction.COUNTERCLOCKWISE)
-left_gear = Motor(Port.B, Direction.COUNTERCLOCKWISE)
+
+def mission_1_3_13():
+    """
+    Execute missions 1, 3, and 13.
+    
+    Performs statue rebuild (mission 13), mineshaft operations (mission 3),
+    and returns home. Uses both left and right gear manipulators.
+    Assumes robot starts at the designated starting position.
+    """
+    # Move towards mission 13 - Statue rebuild
+    robot.drive.settings(straight_speed=300)
+    robot.set_travel_mode()
+    robot.precise_straight(850)
+    
+    robot.set_precision_mode()
+    robot.precise_turn(110)
+    robot.precise_straight(195)
+    robot.precise_turn(40)
+    robot.precise_straight(110)
+    robot.precise_turn(-10)
+    robot.reset_left_motor_angle(0)
+    
+    # Reached mission 13 - Statue rebuild - Lift arm
+    robot.precise_turn(-7)
+    robot.run_manipulator(300, 250, brake=Stop.HOLD)
+    robot.precise_turn(7)
+    
+    # Mission 13 complete - Move back
+    robot.precise_straight(-195)
+    robot.run_manipulator(300, -250, brake=Stop.HOLD)
+    robot.precise_turn(-62)
+    robot.run_manipulator(1000, 375, brake=Stop.HOLD)
+    wait(1000)
+    
+    # Mission 3 - Mineshaft complete - Lower arm and move back home
+    robot.run_manipulator(1000, -360, brake=Stop.HOLD)
+    robot.reset_manipulator_angle(0)
+    robot.precise_straight(-100)
+    robot.run_manipulator(1000, 360, brake=Stop.HOLD)
+    robot.precise_turn(100)
+    robot.precise_straight(220)
+    robot.precise_turn(90)
+    
+    # Use right gear manipulator
+    right_gear.reset_angle(0)
+    right_gear.run_angle(1000, 455, then=Stop.HOLD, wait=True)
+    wait(100)
+    
+    robot.drive.settings(straight_speed=100)
+    robot.precise_straight(120)
+    right_gear.reset_angle(0)
+    right_gear.run_angle(500, -100, then=Stop.HOLD, wait=True)
+    wait(100)
+    
+    robot.precise_turn(-90)
+    robot.set_travel_mode()
+    robot.precise_straight(500)
+
+
+# Set up robot with standard configuration
+robot = Robot(
+    left_port=Port.A,
+    right_port=Port.C,
+    manipulator_port=Port.B,
+    left_direction=Direction.COUNTERCLOCKWISE,
+    right_direction=Direction.CLOCKWISE,
+    manipulator_direction=Direction.COUNTERCLOCKWISE,
+    wheel_diameter=56,
+    axle_track=80
+)
+
+# Additional motor for right gear
 right_gear = Motor(Port.D, Direction.COUNTERCLOCKWISE)
-robot = DriveBase(left, right, 56, 98)
-
 
 # The main program starts here.
-robot.use_gyro(True)
-# Move towards mission 13 - Statue rebuild
-robot.settings(straight_speed=300)
-robot.straight(850)
-robot.turn(110)
-robot.straight(195)
-robot.turn(40)
-robot.straight(110)
-robot.turn(-10)
-left.reset_angle(0)
-# Reached  mission 13 - Statue rebuild - Lift arm
-robot.turn(-7)
-left_gear.run_angle(300, 250)
-robot.turn(7)
-# Mission 13 complete - Move back
-robot.straight(-195)
-left_gear.run_angle(300, -250)
-robot.turn(-62)
-left_gear.run_angle(1000, 375)
-wait(1000)
-# Mission 3 - Mineshaft complete- Lower arm and move back home
-left_gear.run_angle(1000, -360)
-left_gear.reset_angle(0)
-robot.straight(-100)
-left_gear.run_angle(1000, 360)
-robot.turn(100)
-robot.straight(220)
-robot.turn(90)
-right_gear.reset_angle(0)
-right_gear.run_angle(1000, 455)
-robot.settings(straight_speed=100)
-robot.straight(120)
-right_gear.reset_angle(0)
-right_gear.run_angle(500, -100)
-robot.turn(-90)
-robot.settings(straight_speed=500)
-robot.straight(500)
+mission_1_3_13()
