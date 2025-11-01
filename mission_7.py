@@ -49,7 +49,7 @@ def mission_7():
     wait(2000)
     
     # Adjust position
-    robot.drive.settings(straight_speed=200, turn_rate=100)
+    robot.set_custom_speed(straight_speed=200, turn_rate=100)
     robot.precise_turn(-36)
     wait(2000)
     robot.run_manipulator(200, -25, brake=Stop.HOLD)

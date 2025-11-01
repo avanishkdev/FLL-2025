@@ -11,7 +11,7 @@ Port Wiring:
 - Left gear manipulator: Port B (counterclockwise)
 - Right gear manipulator: Port D (counterclockwise)
 - Wheel diameter: 56 mm
-- Axle track: 80 mm
+- Axle track: 80 mm (Note: Original used 98mm; standardized to 80mm per refactoring)
 
 When executed, runs mission_1_3_13() function.
 """

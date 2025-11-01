@@ -145,3 +145,28 @@ class Robot:
             angle: Angle to reset to (default 0)
         """
         self.left_motor.reset_angle(angle)
+    
+    def set_settle_time(self, time_ms):
+        """
+        Set the settle time for movements.
+        
+        Args:
+            time_ms: Settle time in milliseconds
+        """
+        self.settle_time = time_ms
+    
+    def set_custom_speed(self, straight_speed=None, turn_rate=None):
+        """
+        Set custom speed settings for the drivebase.
+        
+        Args:
+            straight_speed: Straight speed in mm/s (optional)
+            turn_rate: Turn rate in deg/s (optional)
+        """
+        kwargs = {}
+        if straight_speed is not None:
+            kwargs['straight_speed'] = straight_speed
+        if turn_rate is not None:
+            kwargs['turn_rate'] = turn_rate
+        if kwargs:
+            self.drive.settings(**kwargs)

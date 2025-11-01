@@ -10,7 +10,7 @@ Port Wiring:
 - Right motor: Port C (clockwise)
 - Manipulator (left gear): Port B (counterclockwise)
 - Wheel diameter: 56 mm
-- Axle track: 80 mm
+- Axle track: 80 mm (Note: Original used 98mm; standardized to 80mm per refactoring)
 
 When executed, runs mission_1_and_2() function.
 """

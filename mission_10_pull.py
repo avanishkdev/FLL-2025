@@ -42,7 +42,7 @@ def mission_10_pull():
     
     # Arc movement (using drive.arc directly)
     robot.drive.arc(100, angle=-50)
-    robot.settle_time = 50
+    robot.set_settle_time(50)
     
     # Return
     robot.set_travel_mode()
