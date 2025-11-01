@@ -1,11 +1,18 @@
+"""
+FLL 2025 Mission Menu
+Refactored to use Robot helper for consistent movements (2025-11-01)
+
+Menu system to select and run different mission scripts.
+"""
+
 from pybricks.tools import hub_menu
 
 # Make a menu to choose a letter. You can also use numbers.
-selected = hub_menu("A", "B" , "C" , "D" , "E", "F" , "G", "H")
+selected = hub_menu("A", "B", "C", "D", "E", "F", "G", "H")
 
 # Based on the selection, run a program.
 if selected == "A":
-    import Missioms_8_5_9_and_10
+    import Missions_8_5_9_and_10
 elif selected == "B":
     import mission_9_pull
 elif selected == "C":
