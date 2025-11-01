@@ -1,30 +1,70 @@
-# pybricks blocks file:{"blocks":{"languageVersion":0,"blocks":[{"type":"blockGlobalSetup","id":"bjK,wS1MYO7aiYkFSwd{","x":63,"y":-19,"deletable":false,"next":{"block":{"type":"variables_set_prime_hub","id":"TOr[Y*p6lW/mk5ydzJ#@","extraState":{"optionLevel":0},"fields":{"VAR":{"id":"sNUcHq,4GbT0i33*%t,)"}},"next":{"block":{"type":"variables_set_motor","id":"J!fB%D37_bqds/yFx|Fk","fields":{"VAR":{"id":"`#(M;o4ZYJq8tDB[iZ?C"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"E:Toyf{|mW=_v|M,+o#=","fields":{"NAME":"C"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"mD8,(?-*+k8i0TKR]l,I","fields":{"SELECTION":"Direction.CLOCKWISE"}}}},"next":{"block":{"type":"variables_set_motor","id":"c!**t.gxCHJ4LNA!#hV{","fields":{"VAR":{"id":"Lb2},;H,NK3nY.@}-|9Z"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"oq$BVRUy8pUk+ulh#f7t","fields":{"NAME":"A"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"-(#8@OYHXhZt3^%G%PpB","fields":{"SELECTION":"Direction.COUNTERCLOCKWISE"}}}},"next":{"block":{"type":"variables_set_motor","id":"I;4yUi/,t,,__sRwxa-y","fields":{"VAR":{"id":"1BViSmy2Le21h-xrhOd3"}},"inputs":{"PORT":{"shadow":{"type":"blockParametersPort","id":"D0(|}9QKM$)zV@z|qc6U","fields":{"NAME":"B"}}},"POSITIVE_DIRECTION":{"shadow":{"type":"blockParametersDirection","id":"4~-/nZ)^|$H6@g7oUJNA","fields":{"SELECTION":"Direction.CLOCKWISE"}}}},"next":{"block":{"type":"variables_set_drive_base","id":"(x=A|9k8X4?x9gd`kQFd","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??"}},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"+Z3N6A:Gsmr:4{_=e~.A","fields":{"VAR":{"id":"Lb2},;H,NK3nY.@}-|9Z","name":"left","type":"Motor"}}}},"VAR2":{"shadow":{"type":"variables_get_motor_device","id":"_`b.pWp2?1y,=*gjul:v","fields":{"VAR":{"id":"`#(M;o4ZYJq8tDB[iZ?C","name":"right","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_distance","id":"jvAHBV:=ex69.!zu)Qk#","fields":{"VALUE0":56}}},"VALUE1":{"shadow":{"type":"unit_distance","id":"U]{pA$:ON}LxCi8cKzrc","fields":{"VALUE0":80}}}}}}}}}}}}}}},{"type":"blockGlobalStart","id":"3tJe|AWl0baN(wH9a$@.","x":-76,"y":338,"deletable":false,"next":{"block":{"type":"blockDriveBaseUseGyro","id":"(:DT/*A7MqXWi;p9Y~~E","fields":{"METHOD":"DRIVEBASE_USE_GYRO_TRUE"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"0hc#EhoI8T}JNPV9P?^1","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}}},"next":{"block":{"type":"blockDriveBaseResetWithValues","id":"uy{47KXe?jUIt[+H?^Yx","inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"CmZEWY,qv)5~=qh@pJc8","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"VALUE0":{"shadow":{"type":"unit_distance","id":"){g;?4c#g8_O]n5Lf]LZ","fields":{"VALUE0":0}}},"VALUE1":{"shadow":{"type":"unit_angle","id":"YQI[!)JwMTj;`)S1%;Iy","fields":{"VALUE0":0}}}},"next":{"block":{"type":"blockMotorResetAngle","id":"IFlqJrKL^9z/PrhNx6j]","inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"aj)8,e#y@fK,EJt%H*^2","fields":{"VAR":{"id":"Lb2},;H,NK3nY.@}-|9Z","name":"left","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angle","id":"|conOpE5*x?,Pm;8Sic2","fields":{"VALUE0":0}}}},"next":{"block":{"type":"blockFunctionCallerStatement","id":"=KH)=@@#[Coq!WPbkAf^","extraState":{"optionLevel":0},"fields":{"ICON":"TASK","VAR":{"id":"O9J`V+!7VF][E3w,3Dm@"}}}}}}}}}}},{"type":"variables_setup_function","id":"MYY.9x*qy3ut{-nj#*oh","x":386,"y":666,"extraState":{"optionLevel":0},"fields":{"ICON":"TASK","VAR":{"id":"O9J`V+!7VF][E3w,3Dm@"}},"inputs":{"STACK":{"block":{"type":"blockDriveBaseDrive2","id":"Do#B,q^sbn6iDw;eNFN-","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":":OL0x~Cw;lNw1]3hMO:|","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"nva$H{|xk~xTibB]J@lM","fields":{"VALUE0":180}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"o:E@*jC6kKv6ra`_BRvQ","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"jd;6n.YXX_%GLb4ERF1b","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"us;UYOG(PXyryG/;7Dn}","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"C0(dCGMX:A*A/F50jG`)","fields":{"VALUE0":-85}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"93ga5P|[5[s7]u?[k6T;","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"}w8z-+aC2T+GSlw)0cH$","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"EF?q7i3-zJ2*Wme]]ky!","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"6?w-duLiF|xk%e1d%.]_","fields":{"VALUE0":340}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"Wn;Cte7KSHr[LKiM0(u|","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"^~CYPQ$K8}#)D$-pDeci","extraState":{"optionLevel":3},"fields":{"METHOD":"DRIVEBASE_DRIVE_TURN"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"B:?D^|gR3w2p6^A9_fzQ","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_angle","id":"PTgRe*%Jdv}#^T$#JQ)H","fields":{"VALUE0":50}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"K4V^fQ26uERXEsiMvT!K","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"GRWTWMZ]_A.O4B^|dqCp","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"rT~;%}h07*3+3w.Q)nVy","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"0YihQaMojDh@C4}nJTU)","fields":{"VALUE0":133}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"HVI-MAn]y-P2Kk{(4-l6","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorRun","id":"X.-##5ZQ2K_wUR79wXQM","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"Sdf;tg4QxI^oXQ+9/I4B","fields":{"VAR":{"id":"1BViSmy2Le21h-xrhOd3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"N*F0l$+aBA|7lCYs}d+3","fields":{"VALUE0":1000}}},"ANGLE":{"shadow":{"type":"unit_angle","id":"_^[3_zj{sNbCuWFUwI%=","fields":{"VALUE0":650}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"R/}ruRQ@OmCgu`G.?lh=","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"P(Ua(]n4UyjzdoABv-vV","extraState":{"optionLevel":4},"fields":{"METHOD":"DRIVEBASE_DRIVE_ARC_ANGLE"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"k3+N*hF[%)l[IiT+t6e$","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"dvJ/7;1QC{^Vl:gCe|9G","fields":{"VALUE0":100}}},"ARG1":{"shadow":{"type":"unit_angle","id":"3k+=5CQLo@JycV_*+v4a","fields":{"VALUE0":-50}}},"ARG2":{"shadow":{"type":"parameters_stop_4","id":"mtO[yi;?!K:hiNiW`F^J","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockDriveBaseDrive2","id":"-ppbbyl.+-1IozPQu^?1","extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"Fo{n=~+nO]p9|zkQ80H`","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"#5xSDt!HVFM|LFZF6@)y","fields":{"VALUE0":-500}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"^#0E2*%^OXP@62A,{Ee3","fields":{"VALUE":"Stop.HOLD"}}}},"next":{"block":{"type":"blockMotorRun","id":"q7pehpu`v8fSOE.w4g+I","extraState":{"optionLevel":1},"fields":{"METHOD":"MOTOR_RUN_FOR"},"inputs":{"VAR":{"shadow":{"type":"variables_get_motor_device","id":"J#Xy*p@(CRSd[Xmfo!3Q","fields":{"VAR":{"id":"1BViSmy2Le21h-xrhOd3","name":"left gear","type":"Motor"}}}},"VALUE0":{"shadow":{"type":"unit_angularVelocity","id":"dKQiv,$;sjvD#H9LO/~{","fields":{"VALUE0":1000}}},"ANGLE":{"shadow":{"type":"unit_angle","id":":9a.+?KL[iFJsAu@7@?l","fields":{"VALUE0":-650}}},"THEN":{"shadow":{"type":"parameters_stop_4","id":"ETY$4iW[)|EEfkwXyJtK","fields":{"VALUE":"Stop.HOLD"}}}}}}}}}}}}}}}}}}}}}}}},{"type":"blockDriveBaseDrive2","id":"E^RT^IUJjbr;[/taH[42","x":1058,"y":933,"enabled":false,"extraState":{"optionLevel":2},"fields":{"METHOD":"DRIVEBASE_DRIVE_STRAIGHT"},"inputs":{"VAR":{"shadow":{"type":"variables_get_drive_base_device","id":"3RGzLL,Gjo[c,Q,Vz43j","fields":{"VAR":{"id":"~0u;A(JuO[Z-g!T!n@??","name":"drive base","type":"DriveBase"}}}},"ARG0":{"shadow":{"type":"unit_distance","id":"*.+]KcZ|1VW?R=.djM{6","fields":{"VALUE0":135}}},"ARG1":{"shadow":{"type":"parameters_stop_4","id":"M7!lu@$ST~^hUjU)w=0n","fields":{"VALUE":"Stop.HOLD"}}}}}]},"variables":[{"name":"red","id":"h$0V_Yt(t=Z^Js(/1{)%","type":"ColorDef"},{"name":"orange","id":"Xg:/5}AsI[+m17s6,v21","type":"ColorDef"},{"name":"yellow","id":"oK[2ogh@tBz;{#/Ha_d9","type":"ColorDef"},{"name":"green","id":"yDXVB7[1d,EwqspHqcRy","type":"ColorDef"},{"name":"cyan","id":"[Sqwy^o}3JlB#lf.C8K^","type":"ColorDef"},{"name":"blue","id":"%,Cxlm]us!PBq=L5sN58","type":"ColorDef"},{"name":"violet","id":"D1c;vx%^__7^E@2`Xe3_","type":"ColorDef"},{"name":"magenta","id":"tC]CPmaB)jb|Q/=D/TMe","type":"ColorDef"},{"name":"white","id":"3Us_]nt]o2gt*8t(}@Sw","type":"ColorDef"},{"name":"none","id":";VdF3wIsmw8D^^[|(@C(","type":"ColorDef"},{"name":"prime hub","id":"sNUcHq,4GbT0i33*%t,)","type":"PrimeHub"},{"name":"drive base","id":"~0u;A(JuO[Z-g!T!n@??","type":"DriveBase"},{"name":"right","id":"`#(M;o4ZYJq8tDB[iZ?C","type":"Motor"},{"name":"left","id":"Lb2},;H,NK3nY.@}-|9Z","type":"Motor"},{"name":"left gear","id":"1BViSmy2Le21h-xrhOd3","type":"Motor"},{"name":"mission 10 pull","id":"O9J`V+!7VF][E3w,3Dm@","type":"Function"}],"info":{"type":"pybricks","version":"1.3.2"}}
-from pybricks.hubs import PrimeHub
-from pybricks.parameters import Direction, Port, Stop
-from pybricks.pupdevices import Motor
-from pybricks.robotics import DriveBase
+"""
+Mission 10 - Pull - FLL 2025
+Refactored to use Robot helper for consistent movements (2025-11-01)
 
-# Set up all devices.
-prime_hub = PrimeHub()
-right = Motor(Port.C, Direction.CLOCKWISE)
-left = Motor(Port.A, Direction.COUNTERCLOCKWISE)
-left_gear = Motor(Port.B, Direction.CLOCKWISE)
-drive_base = DriveBase(left, right, 56, 80)
+This mission script performs mission 10 with pull operations using the manipulator.
+
+Port Wiring:
+- Left motor: Port A (counterclockwise)
+- Right motor: Port C (clockwise)
+- Manipulator (left gear): Port B (clockwise)
+- Wheel diameter: 56 mm
+- Axle track: 80 mm
+
+When executed, runs mission_10_pull() function.
+"""
+
+from pybricks.parameters import Direction, Port, Stop
+from robot_helpers import Robot
+
 
 def mission_10_pull():
-    drive_base.straight(180)
-    drive_base.turn(-85)
-    drive_base.straight(340)
-    drive_base.turn(50)
-    drive_base.straight(133)
-    left_gear.run_angle(1000, 650)
-    drive_base.arc(100, angle=-50)
-    drive_base.straight(-500)
-    left_gear.run_angle(1000, -650)
+    """
+    Execute mission 10 - Pull operation.
+    
+    Performs navigation with manipulator pull actions and arc movement.
+    Assumes robot starts at the designated starting position.
+    """
+    # Navigate to mission area
+    robot.set_precision_mode()
+    robot.precise_straight(180)
+    robot.precise_turn(-85)
+    
+    robot.set_travel_mode()
+    robot.precise_straight(340)
+    
+    robot.set_precision_mode()
+    robot.precise_turn(50)
+    robot.precise_straight(133)
+    
+    # Pull operation
+    robot.run_manipulator(1000, 650, brake=Stop.HOLD)
+    
+    # Arc movement (using drive.arc directly)
+    robot.drive.arc(100, angle=-50)
+    robot.settle_time = 50
+    
+    # Return
+    robot.set_travel_mode()
+    robot.precise_straight(-500)
+    
+    # Release
+    robot.run_manipulator(1000, -650, brake=Stop.HOLD)
 
+
+# Set up robot with standard configuration
+robot = Robot(
+    left_port=Port.A,
+    right_port=Port.C,
+    manipulator_port=Port.B,
+    left_direction=Direction.COUNTERCLOCKWISE,
+    right_direction=Direction.CLOCKWISE,
+    manipulator_direction=Direction.CLOCKWISE,
+    wheel_diameter=56,
+    axle_track=80
+)
 
 # The main program starts here.
-drive_base.use_gyro(True)
-drive_base.reset(0, 0)
-left.reset_angle(0)
+robot.reset_drive(0, 0)
+robot.reset_left_motor_angle(0)
 mission_10_pull()
